@@ -1,0 +1,46 @@
+* -D - devDependencies
+   webpack, webpack-cli (console commands)
+
+* webpack config
+
+* cache problems with bundle names
+
+* plugins additional functionality as class
+  html-webpack-plugin
+  clean-webpack-plugin
+
+* scripts(build)
+
+* loader - to work with different than js, json files
+  'style-loader', 'css-loader' ,'file-loader' (wbpk goes <--)
+
+* remove main => private true (to not public as npm package)
+
+* webpack resolve: 
+  extensions - for adding js , json, png, xml etc
+  alias - absolute path 
+
+* optimization:
+  spitChunks -to prevent downloading the same lib few times
+
+* webpack-dev-server:
+  hot reload 
+  no data in dist (RAM)
+
+* MiniCssExtractPlugin:
+  no chunk css
+  options: { hmr: true,reloadAll: true} only if dev mode
+
+* cross-env to define dev/prod mode
+
+* prod minification:
+  js(TerserWebpackPlugin)
+  html(collapseWhitespace: isProd)
+  css(OptimizeCssAssetsWebpackPlugin)
+
+
+* hash name only on PROD:
+  fn filename
+
+* add sass/less:
+  npm + loaders
