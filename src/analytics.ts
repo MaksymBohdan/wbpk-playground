@@ -1,8 +1,8 @@
 import * as $ from 'jquery';
 
 function createAnalytics() {
-  let counter = 0;
-  let destroyed = false;
+  let counter: number = 0;
+  let destroyed: boolean = false;
   const lister = () => counter++;
   $(document).on('click', lister);
 
@@ -18,4 +18,4 @@ function createAnalytics() {
   };
 }
 
-window.analytics = createAnalytics();
+window['analytics'] = createAnalytics();

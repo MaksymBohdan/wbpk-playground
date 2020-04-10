@@ -44,3 +44,11 @@
 
 * add sass/less:
   npm + loaders
+
+* add fn loaders for all css modules
+
+* add babel:
+  presets ? - set of different plugins 
+  @babel/preset-ent - for modern js
+  babel-polyfill - latest feat like async
+  babel plugin for classes @babel/plugin-proposal-class-properties
