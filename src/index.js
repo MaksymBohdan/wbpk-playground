@@ -5,6 +5,7 @@ import './styles/styles.css';
 // import './styleLess.less'
 import './styles/stylesScss.scss';
 import * as $ from 'jquery';
+import './babel';
 // import xml from './assets/data.xml';
 // import csv from './assets/rdu-weather-history.csv'
 
