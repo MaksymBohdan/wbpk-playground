@@ -52,3 +52,17 @@
   @babel/preset-ent - for modern js
   babel-polyfill - latest feat like async
   babel plugin for classes @babel/plugin-proposal-class-properties
+
+* add ts 
+
+* add react
+
+* add source map(devtool) 
+
+* eslint:
+ eslint configuration
+ eslint parser
+
+ * lodash: lazy loading
+
+ * webpack-bundle-analyzer
